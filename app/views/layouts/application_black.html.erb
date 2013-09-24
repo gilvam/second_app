@@ -6,15 +6,9 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-<%= render :partial => 'shared/menu_top' %>
-<div class="container">
-	<div class="row">
-		<%= yield %>
-	    <%= render :partial => 'shared/sidebar' %>
-	</div>
-	<%= render :partial => 'shared/footer' %>
-</div>
+<body style="background-color: black">
+
+<%= yield %>
 
 </body>
 </html>
