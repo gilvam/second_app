@@ -13,5 +13,10 @@ class User < ActiveRecord::Base
 
 	# Associations
 	# Scopes
+
 	# Públic methods
+	def adulthood
+		age >= 18
+	end
+
 end
